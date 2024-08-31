@@ -1,16 +1,16 @@
 "use client";
-import Preload from "./component/preload/Preload";
-import { useState } from "react";
+import About from "./component/about/About";
+import Footer from "./component/footer/Footer";
+import LandingPage from "./component/landing-page/LandingPage";
 
 export default function Home() {
-  // const [isLoading, setIsloading] = useState("");
-  // setTimeout(() => {
-  //   setIsloading("complate");
-  // }, 7000);
   return (
-    <div className="relative min-h-screen">
+    <div className="relative min-h-screen max-h-screen overflow-x-hidden">
       {/* {isLoading?<Preload />: } */}
-      <Preload />
+      {/* <Preload /> */}
+      <LandingPage />
+      <About />
+      <Footer />
     </div>
   );
 }

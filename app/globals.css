@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  background-color: tomato;
+  background-color: #000000;
 }
 
 .st0 {
@@ -36,5 +37,8 @@ body {
   opacity: 0;
 }
 .svg-container-2 {
+  opacity: 0;
+}
+.text-agung-svg {
   opacity: 0;
 }
