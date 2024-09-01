@@ -10,7 +10,7 @@ export default function Home() {
       {/* <Preload /> */}
       <LandingPage />
       <About />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
