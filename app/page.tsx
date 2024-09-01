@@ -2,6 +2,7 @@
 import About from "./component/about/About";
 import Footer from "./component/footer/Footer";
 import LandingPage from "./component/landing-page/LandingPage";
+import Project from "./component/project/Project";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       {/* <Preload /> */}
       <LandingPage />
       <About />
+      <Project />
       <Footer />
     </div>
   );
