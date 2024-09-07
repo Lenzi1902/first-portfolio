@@ -12,10 +12,10 @@ const Footer = () => {
     }
   }, []);
   return (
-    <div className=" w-screen h-screen text-white flex flex-col items-center font-[eczar] gap-[300px] mt-[218px] overflow-x-hidden">
+    <div className=" w-screen h-screen text-white flex flex-col items-center font-[eczar] gap-[300px] mt-[218px] overflow-x-hidden" ref={ref}>
       <h1 className=" text-[55px] text-center w-[925px]">Wrestling with code late into the night,weaving solutions until the break of dawn</h1>
-      <div className=" relative">
-        <div className="  w-[1309px] " ref={ref}>
+      <div className=" relative bottom-component">
+        <div className="  w-[1309px] ">
           <div className=" flex justify-between mb-[20px]">
             <GsapMagnetic>
               <a href="#" className=" border border-white rounded-full w-[458px] h-[43px] flex justify-center items-center text-[24px]">
@@ -133,12 +133,12 @@ const Footer = () => {
               </GsapMagnetic>
             </div>
           </div>
+          <div className=" border-bottom-footer border-b-2"></div>
           <GsapMagnetic>
-            <Link href={"/contact"} className=" button-contact-me absolute border border-white rounded-full h-[43px] flex justify-center items-center text-[24px] w-[228px] top-[160px] left-[43%] bg-[#000000] z-[2]">
+            <Link href={"/contact"} className=" button-contact-me absolute border border-white rounded-full h-[43px] flex justify-center items-center text-[24px] w-[228px] left-[43%] bg-[#000000] z-[2] translate-y-[-45%]">
               contact me
             </Link>
           </GsapMagnetic>
-          <div className=" border-bottom-footer border-b-2"></div>
         </div>
       </div>
     </div>
