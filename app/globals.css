@@ -42,3 +42,16 @@ body {
 .text-agung-svg {
   opacity: 0;
 }
+
+.logo.active {
+  transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  -moz-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -webkit-transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -moz-transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -ms-transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  -o-transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
