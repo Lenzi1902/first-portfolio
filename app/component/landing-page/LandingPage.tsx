@@ -67,8 +67,8 @@ const LandingPage = () => {
           </linearGradient>
         </defs>
       </svg>
-      <p className=" text-[17px] w-[390px] text-center mb-[57px]">I’m an Indonesian Fullstack web developer, helping brands stand out in the digital era. Together, we’ll set new standards. No nonsense, always at the forefront of innovation.</p>
-      <Link href={"/about"} className="w-[194px] h-[54px] flex items-center justify-center rounded-full bg-gradient-to-t from-[#181818] to-[#333333] text-[20px] font-bold">
+      <p className=" text-[17px] w-[390px] text-center mb-[57px] text-[#585858]">I’m an Indonesian Fullstack web developer, helping brands stand out in the digital era. Together, we’ll set new standards. No nonsense, always at the forefront of innovation.</p>
+      <Link href={"/about"} className="w-[194px] h-[54px] flex items-center justify-center rounded-full bg-gradient-to-t from-[#181818] to-[#333333] text-[#a19f94] text-[20px] font-bold">
         About me
       </Link>
       <svg width="358" height="108" viewBox="0 0 358 108" fill="none" xmlns="http://www.w3.org/2000/svg" className=" mt-[30px] frame-9 opacity-0">
