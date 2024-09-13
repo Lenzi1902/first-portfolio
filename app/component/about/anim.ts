@@ -76,9 +76,6 @@ export const marqueeSkillStack = (element: HTMLElement) => {
       },
       "-=1"
     )
-    .to(".indonesian-flag-location", {
-      x: 0,
-    })
     .to(
       ".text-location",
       {
