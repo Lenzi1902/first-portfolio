@@ -24,7 +24,7 @@ const Footer = () => {
             </GsapMagnetic>
             <div className=" flex gap-[33px]">
               <GsapMagnetic>
-                <a href={"#"}>
+                <a href={"https://www.instagram.com/xlennzii/"}>
                   <svg width="56" height="51" viewBox="0 0 56 51" fill="none">
                     <g filter="url(#filter0_d_29_116)">
                       <rect x="4.72742" y="0.88562" width="46.5455" height="41.1429" rx="20.5714" fill="white" />
@@ -66,7 +66,7 @@ const Footer = () => {
                 </a>
               </GsapMagnetic>
               <GsapMagnetic>
-                <a href={"#"}>
+                <a href={"https://github.com/Lenzi1902"}>
                   <svg width="56" height="51" viewBox="0 0 56 51" fill="none">
                     <g filter="url(#filter0_d_29_118)">
                       <rect x="4.98175" y="0.885773" width="46.5455" height="41.1429" rx="20.5714" fill="white" />
@@ -114,7 +114,7 @@ const Footer = () => {
                 </a>
               </GsapMagnetic>
               <GsapMagnetic>
-                <a href={"#"}>
+                <a href={"https://www.facebook.com/wicak.bali.35"}>
                   <svg width="47" height="43" viewBox="0 0 47 43" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clipPath="url(#clip0_29_119)">
                       <rect x="0.236145" y="0.885773" width="46.5455" height="41.1429" rx="20.5714" fill="white" />
