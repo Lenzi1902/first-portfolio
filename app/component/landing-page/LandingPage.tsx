@@ -2,6 +2,8 @@
 import { useEffect, useRef } from "react";
 import anim from "./anim";
 import Link from "next/link";
+import TranisitionLink from "../TranisitionLink";
+import GsapMagnetic from "@/app/common/GsapMagnetic";
 
 const LandingPage = () => {
   const ref = useRef<HTMLDivElement>(null);
@@ -12,12 +14,12 @@ const LandingPage = () => {
   }, []);
   return (
     <div ref={ref} className="flex flex-col items-center font-[eczar]  text-white h-screen w-screen bg-[url('/backgroundcolorlandingpage.png')] bg-cover bg-center bg-no-repeat overflow-y-hidden">
-      <svg width="358" height="150" viewBox="0 0 358 150" fill="none" xmlns="http://www.w3.org/2000/svg" className=" mt-[120px] frame-7  opacity-0">
+      <svg width="258" height="150" viewBox="0 0 358 150" fill="none" xmlns="http://www.w3.org/2000/svg" className=" mt-[120px] frame-7  opacity-0">
         <line y1="0.5" x2="358" y2="0.5" stroke="white" />
         <line x1="178.5" x2="178.5" y2="150" stroke="white" />
       </svg>
       <div className=" text-[16px] p-[20px] font-bold mt-[34px] ">FULLSTACK WEB DEVELOPER</div>
-      <svg width="455" height="157" viewBox="0 0 455 157" fill="none" xmlns="http://www.w3.org/2000/svg" className=" w-[454] mb-[10px]">
+      <svg width="355" height="157" viewBox="0 0 455 157" fill="none" xmlns="http://www.w3.org/2000/svg" className=" w-[454] mb-[10px]">
         <path
           className="text-agung-svg"
           d="M0.0820312 155.531H42.2489C42.2489 155.531 35.2211 149.906 35.2211 144.281C35.2211 138.656 39.4378 121.781 39.4378 121.781H65.7499L70.3602 144.281C70.3602 144.281 66.8463 154.125 62.981 155.531C59.1157 156.937 106.905 155.531 106.905 155.531C106.905 155.531 98.4715 151.312 94.2548 130.219C90.0381 109.125 70.3602 19.125 70.3602 19.125C70.3602 19.125 68.9547 13.5 71.7658 9.28125C74.5769 5.0625 78.7936 0.84375 78.7936 0.84375H28.5869C28.5869 0.84375 39.4378 6.46875 36.6267 19.125C33.8156 31.7812 12.7321 137.25 12.7321 137.25C12.7321 137.25 7.10985 151.312 0.0820312 155.531Z"
@@ -68,10 +70,13 @@ const LandingPage = () => {
         </defs>
       </svg>
       <p className=" text-[17px] w-[390px] text-center mb-[57px] text-[#585858]">I’m an Indonesian Fullstack web developer, helping brands stand out in the digital era. Together, we’ll set new standards. No nonsense, always at the forefront of innovation.</p>
-      <Link href={"/about"} className="w-[194px] h-[54px] flex items-center justify-center rounded-full bg-gradient-to-t from-[#181818] to-[#333333] text-[#a19f94] text-[20px] font-bold">
+      {/* <Link href={"/about"} className="w-[194px] h-[54px] flex items-center justify-center rounded-full bg-gradient-to-t from-[#181818] to-[#333333] text-[#a19f94] text-[20px] font-bold">
         About me
-      </Link>
-      <svg width="358" height="108" viewBox="0 0 358 108" fill="none" xmlns="http://www.w3.org/2000/svg" className=" mt-[30px] frame-9 opacity-0">
+      </Link> */}
+      <GsapMagnetic>
+        <TranisitionLink href="/about" label="About me" className="w-[194px] h-[38px] flex items-center justify-center rounded-full bg-gradient-to-t from-[#181818] to-[#333333] text-[#a19f94] text-[20px] font-bold" />
+      </GsapMagnetic>
+      <svg width="258" height="108" viewBox="0 0 358 108" fill="none" xmlns="http://www.w3.org/2000/svg" className=" mt-[30px] frame-9 opacity-0">
         <line x1="357.996" y1="107.503" x2="-0.00402832" y2="107.503" stroke="white" />
         <line x1="178.5" y1="94" x2="178.5" stroke="white" />
       </svg>
