@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useEffect, useRef } from "react";
 import anim from "./anim";
 import GsapMagnetic from "@/app/common/GsapMagnetic";
+import TranisitionLink from "../TranisitionLink";
 
 const Footer = () => {
   const ref = useRef<HTMLDivElement>(null);
@@ -135,9 +136,10 @@ const Footer = () => {
           </div>
           <div className=" border-bottom-footer border-b-2"></div>
           <GsapMagnetic>
-            <Link href={"/contact"} className=" button-contact-me absolute border border-white rounded-full h-[43px] flex justify-center items-center text-[24px] w-[228px] left-[43%] bg-[#000000] z-[2] translate-y-[-45%]">
+            {/* <Link href={"/contact"} className=" button-contact-me absolute border border-white rounded-full h-[43px] flex justify-center items-center text-[24px] w-[228px] left-[43%] bg-[#000000] z-[2] translate-y-[-45%]">
               contact me
-            </Link>
+            </Link> */}
+            <TranisitionLink href="/contact" label="contact me" className="button-contact-me absolute border border-white rounded-full h-[43px] flex justify-center items-center text-[24px] w-[228px] left-[43%] bg-[#000000] z-[2] translate-y-[-45%]" />
           </GsapMagnetic>
         </div>
       </div>
