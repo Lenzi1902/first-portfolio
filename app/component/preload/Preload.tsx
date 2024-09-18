@@ -10,7 +10,7 @@ const Preload = () => {
     }
   }, []);
   return (
-    <div className=" bg-black absolute top-0 right-0 left-0 h-screen overflow-y-hidden container-all-svg" ref={ref}>
+    <div className=" bg-black fixed top-0 right-0 left-0 h-screen overflow-y-hidden container-all-svg z-50" ref={ref}>
       <svg x="0px" y="0px" viewBox="0 0 1366 768" xmlSpace="preserve" className="svg-container">
         <g id="Layer_3_start">
           <path
