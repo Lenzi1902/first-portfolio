@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useEffect, useRef } from "react";
 import anim from "./anim";
 import GsapMagnetic from "@/app/common/GsapMagnetic";
+import TranisitionLink from "../TranisitionLink";
 
 const Navbar = () => {
   const ref = useRef<HTMLDivElement>(null);
@@ -53,19 +54,22 @@ const Navbar = () => {
       <div className=" flex gap-[113px] text-[24px] font-bold text-white font-[eczar]">
         <GsapMagnetic>
           <div className="group flex flex-col items-center">
-            <Link href={"/about"}>ABOUT</Link>
+            {/* <Link href={"/about"}>ABOUT</Link> */}
+            <TranisitionLink href="/about" label="ABOUT" />
             <div className="w-[5px] h-[5px] rounded-full opacity-0 bg-white group-hover:opacity-100 transition-all duration-500"></div>
           </div>
         </GsapMagnetic>
         <GsapMagnetic>
           <div className="group flex flex-col items-center">
-            <Link href={"/work"}>WORK</Link>
+            {/* <Link href={"/work"}>WORK</Link> */}
+            <TranisitionLink href="/work" label="WORK" />
             <div className="w-[5px] h-[5px] rounded-full opacity-0 bg-white group-hover:opacity-100 transition-all duration-500"></div>
           </div>
         </GsapMagnetic>
         <GsapMagnetic>
           <div className="group flex flex-col items-center">
-            <Link href={"/contact"}>CONTACT</Link>
+            {/* <Link href={"/contact"}>CONTACT</Link> */}
+            <TranisitionLink href="/contact" label="CONTACT" />
             <div className="w-[5px] h-[5px] rounded-full opacity-0 bg-white group-hover:opacity-100 transition-all duration-500"></div>
           </div>
         </GsapMagnetic>
