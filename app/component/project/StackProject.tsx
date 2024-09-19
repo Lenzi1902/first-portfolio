@@ -15,9 +15,9 @@ const StackProject = ({ projectDescription, projectStack }: Props) => {
     }
   }, []);
   return (
-    <div className=" w-[500px] flex flex-col gap-5">
-      <p>{projectDescription}</p>
-      <div className=" w-[500px] h-[80px] overflow-hidden relative z-[10]" ref={ref}>
+    <div className=" lg:w-[500px] md:w-[400px] xs:w-[300px] flex flex-col gap-5">
+      <p className=" lg:block md:hidden xs:hidden">{projectDescription}</p>
+      <div className=" lg:w-[500px] md:w-[400px] xs:w-[300px] h-[80px] overflow-hidden relative z-[10]" ref={ref}>
         <div className=" bg-gradient-to-r from-black from-[25%] absolute w-[30px] h-full  z-[2]"></div>
         <div className=" flex items-center  absolute z-[1] gap-2 h-[80px] wrapper-stack">
           {projectStack.map((stack, index) => (

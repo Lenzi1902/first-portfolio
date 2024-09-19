@@ -14,7 +14,7 @@ const About = () => {
     }
   }, []);
   return (
-    <div className=" min-h-screen max-w-screen text-black px-[119px] py-[52px] overflow-x-hidden  " ref={skillStack}>
+    <div className=" min-h-screen max-w-screen text-black lg:px-[119px] md:px-[20px] xs:px-0 py-[52px] overflow-x-hidden  " ref={skillStack}>
       <div className=" h-full w-full grid grid-cols-10 grid-rows-17 gap-4">
         <LandingPageAbout />
         <MarqueeText />

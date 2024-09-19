@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+
 import { useEffect, useRef } from "react";
 import anim from "./anim";
 import GsapMagnetic from "@/app/common/GsapMagnetic";
@@ -13,20 +13,22 @@ const Footer = () => {
     }
   }, []);
   return (
-    <div className=" w-screen h-screen text-white flex flex-col items-center font-[eczar] gap-[300px] mt-[218px] overflow-x-hidden" ref={ref}>
-      <h1 className=" text-[55px] text-center w-[925px]">Wrestling with code late into the night,weaving solutions until the break of dawn</h1>
-      <div className=" relative bottom-component">
-        <div className="  w-[1309px] ">
-          <div className=" flex justify-between mb-[20px]">
+    <div className=" w-screen h-screen text-white flex flex-col items-center font-[eczar] gap-[300px] lg:mt-[218px] overflow-x-hidden" ref={ref}>
+      <h1 className=" md:text-[55px] text-center lg:w-[925px] xs:text-[25px]">Wrestling with code late into the night,weaving solutions until the break of dawn</h1>
+      {/* lg and md footer menu */}
+      {/* //! ada di responsive md 768 di bagian gsap button contact */}
+      <div className=" relative bottom-component md:block xs:hidden  ">
+        <div className="lg:w-[1309px] md:w-screen ">
+          <div className="flex justify-between lg:mb-[20px] md:mb-0">
             <GsapMagnetic>
-              <a href="#" className=" border border-white rounded-full w-[458px] h-[43px] flex justify-center items-center text-[24px]">
+              <a href="#" className=" border border-white rounded-full lg:w-[458px] md:w-[250px] h-[43px] flex justify-center items-center lg:text-[24px] md:text-[16px]">
                 contact@agungwicaksana.com
               </a>
             </GsapMagnetic>
-            <div className=" flex gap-[33px]">
+            <div className=" flex lg:gap-[33px] md:gap-[13px]">
               <GsapMagnetic>
                 <a href={"https://www.instagram.com/xlennzii/"}>
-                  <svg width="56" height="51" viewBox="0 0 56 51" fill="none">
+                  <svg width="56" height="51" viewBox="0 0 56 51" fill="none" className="lg:w-[56px] md:w-[50px]">
                     <g filter="url(#filter0_d_29_116)">
                       <rect x="4.72742" y="0.88562" width="46.5455" height="41.1429" rx="20.5714" fill="white" />
                       <path
@@ -57,7 +59,7 @@ const Footer = () => {
               </GsapMagnetic>
               <GsapMagnetic>
                 <a href={"#"}>
-                  <svg width="48" height="43" viewBox="0 0 48 43" fill="none">
+                  <svg width="48" height="43" viewBox="0 0 48 43" fill="none" className="lg:w-[48px] md:w-[40px]">
                     <rect x="0.854919" y="0.885773" width="46.5455" height="41.1429" rx="20.5714" fill="white" />
                     <path
                       d="M35.0379 10.1429H13.2174C12.7162 10.1429 12.2355 10.3189 11.8811 10.6322C11.5267 10.9455 11.3276 11.3703 11.3276 11.8134V31.1011C11.3276 31.5441 11.5267 31.969 11.8811 32.2823C12.2355 32.5955 12.7162 32.7715 13.2174 32.7715H35.0379C35.5391 32.7715 36.0197 32.5955 36.3741 32.2823C36.7285 31.969 36.9276 31.5441 36.9276 31.1011V11.8134C36.9276 11.3703 36.7285 10.9455 36.3741 10.6322C36.0197 10.3189 35.5391 10.1429 35.0379 10.1429ZM18.9579 29.4197H15.109V18.6129H18.9579V29.4197ZM17.0307 17.1154C16.5942 17.1132 16.1681 16.9968 15.8063 16.7807C15.4445 16.5647 15.1632 16.2588 14.9979 15.9016C14.8326 15.5444 14.7907 15.152 14.8775 14.7737C14.9643 14.3955 15.176 14.0485 15.4857 13.7765C15.7954 13.5045 16.1893 13.3197 16.6177 13.2454C17.0462 13.1711 17.4899 13.2106 17.8929 13.359C18.2959 13.5074 18.6402 13.758 18.8823 14.0792C19.1243 14.4004 19.2533 14.7777 19.253 15.1637C19.2571 15.422 19.2023 15.6785 19.0919 15.9178C18.9815 16.157 18.8178 16.3742 18.6104 16.5563C18.403 16.7385 18.1563 16.8818 17.8849 16.9779C17.6135 17.0739 17.323 17.1207 17.0307 17.1154ZM33.1445 29.4291H29.2974V23.5252C29.2974 21.7841 28.4601 21.2467 27.3792 21.2467C26.2379 21.2467 25.1179 22.0072 25.1179 23.5692V29.4291H21.269V18.6208H24.9703V20.1184H25.0201C25.3916 19.4537 26.693 18.3175 28.6787 18.3175C30.8263 18.3175 33.1463 19.4442 33.1463 22.7442L33.1445 29.4291Z"
@@ -68,7 +70,7 @@ const Footer = () => {
               </GsapMagnetic>
               <GsapMagnetic>
                 <a href={"https://github.com/Lenzi1902"}>
-                  <svg width="56" height="51" viewBox="0 0 56 51" fill="none">
+                  <svg width="56" height="51" viewBox="0 0 56 51" fill="none" className="lg:w-[56px] md:w-[50px]">
                     <g filter="url(#filter0_d_29_118)">
                       <rect x="4.98175" y="0.885773" width="46.5455" height="41.1429" rx="20.5714" fill="white" />
                       <path
@@ -105,7 +107,7 @@ const Footer = () => {
               </GsapMagnetic>
               <GsapMagnetic>
                 <a href={"#"}>
-                  <svg width="47" height="43" viewBox="0 0 47 43" fill="none">
+                  <svg width="47" height="43" viewBox="0 0 47 43" fill="none" className="lg:w-[47px] md:w-[40px]">
                     <rect x="0.109314" y="0.885773" width="46.5455" height="41.1429" rx="20.5714" fill="white" />
                     <path
                       d="M19.1231 32.3086C29.4446 32.3086 35.0882 24.7486 35.0882 18.1966C35.0882 17.9806 35.0882 17.7646 35.0766 17.5589C36.1704 16.8595 37.1246 15.9852 37.8809 14.9875C36.8802 15.3783 35.798 15.6458 34.6577 15.7692C35.8213 15.152 36.7057 14.1852 37.1246 13.0229C36.0424 13.5886 34.8438 14 33.5638 14.2263C32.5398 13.2595 31.0853 12.6629 29.4678 12.6629C26.3726 12.6629 23.8591 14.8846 23.8591 17.6206C23.8591 18.0115 23.9057 18.392 24.0104 18.752C19.3442 18.5463 15.2133 16.5715 12.4438 13.568C11.9668 14.2983 11.6875 15.152 11.6875 16.0572C11.6875 17.7749 12.6766 19.2972 14.1893 20.1818C13.27 20.1612 12.4089 19.9349 11.6526 19.5646C11.6526 19.5852 11.6526 19.6058 11.6526 19.6263C11.6526 22.0332 13.5842 24.0286 16.1558 24.4915C15.6904 24.6046 15.19 24.6663 14.678 24.6663C14.3173 24.6663 13.9682 24.6355 13.6191 24.5738C14.3289 26.5486 16.4002 27.9783 18.8555 28.0195C16.9355 29.3463 14.5151 30.1383 11.8853 30.1383C11.4315 30.1383 10.9893 30.1178 10.5471 30.0663C13.0024 31.4858 15.958 32.3086 19.1231 32.3086Z"
@@ -116,7 +118,7 @@ const Footer = () => {
               </GsapMagnetic>
               <GsapMagnetic>
                 <a href={"https://www.facebook.com/wicak.bali.35"}>
-                  <svg width="47" height="43" viewBox="0 0 47 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg width="47" height="43" viewBox="0 0 47 43" fill="none" xmlns="http://www.w3.org/2000/svg" className="lg:w-[47px] md:w-[39px]">
                     <g clipPath="url(#clip0_29_119)">
                       <rect x="0.236145" y="0.885773" width="46.5455" height="41.1429" rx="20.5714" fill="white" />
                       <path
@@ -141,6 +143,25 @@ const Footer = () => {
             </Link> */}
             <TranisitionLink href="/contact" label="contact me" className="button-contact-me absolute border border-white rounded-full h-[43px] flex justify-center items-center text-[24px] w-[228px] left-[43%] bg-[#000000] z-[2] translate-y-[-45%]" />
           </GsapMagnetic>
+        </div>
+      </div>
+      {/* xs footer menu */}
+      <div className=" relative md:hidden xs:block">
+        <div className=" w-screen relative mb-[200px]">
+          <div className=" w-full border-b"></div>
+          <TranisitionLink className=" text-[20px] font-bold absolute top-[-75px] left-[105px] w-[150px] border h-[150px] rounded-full bg-black" href="/contact" label="CONTACT" />
+        </div>
+        <div className=" px-[20px]">
+          <div className=" border-t">
+            <h1>SOCIALS</h1>
+            <div className=" flex w-full flex-wrap text-[17px] font-bold gap-2">
+              <a href="https://www.instagram.com/xlennzii/">Instagram</a>
+              <a href="https://github.com/Lenzi1902">LinkedIn</a>
+              <a href="https://github.com/Lenzi1902">GitHub</a>
+              <a href="https://www.facebook.com/wicak.bali.35">Facebook</a>
+              <a href="#">Twitter</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

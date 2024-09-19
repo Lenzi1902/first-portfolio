@@ -4,8 +4,8 @@ import VideoBackgroundHover from "./VideoBackgroundHover";
 
 const SkillsStack = () => {
   return (
-    <div className="rounded-xl col-span-12 row-span-6  relative group ba">
-      <div className="  w-full h-full bg-[url('/backgroundcolorabout.jpg')]  bg-no-repeat rounded-xl flex flex-col justify-between px-[30px] py-[19px] ">
+    <div className="rounded-xl col-span-12 row-span-6   relative group ">
+      <div className="  w-full h-full bg-[url('/backgroundcolorabout.jpg')]  md:bg-no-repeat rounded-xl xs:rounded-none flex flex-col justify-between md:px-[30px] md:py-[19px] ">
         <VideoBackgroundHover />
         <h1 className=" text-white font-bold font-[eczar] text-[25px] mb-[10px] z-10">Stack I Use</h1>
         <div className="w-full h-[100px] relative z-[3] overflow-x-hidden ">

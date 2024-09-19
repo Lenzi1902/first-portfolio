@@ -59,21 +59,21 @@ const Project = () => {
   return (
     <div className="text-white scroll-outer overflow-hidden mt-[100px] relative">
       <div ref={triggerRef}>
-        <div className=" font-[eczar] text-[70px] flex items-center gap-5 text-[#a19f94] ml-[120px]">
+        <div className=" font-[eczar] md:text-[70px] xs:text-[50px] flex items-center gap-5 text-[#a19f94] lg:ml-[120px] md:ml-[50px] xs:ml-[30px]">
           PROJECTS
           <div ref={arrowProjects}>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="size-14">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="md:size-14 xs:size-12">
               <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
             </svg>
           </div>
         </div>
         <div className="scroll-inner h-[100vh] w-[400vw] flex flex-row relative" ref={sectionRef}>
           {myProjects.map((project, index) => (
-            <section key={index} className="  section-content h-[100vh] w-[100vw] flex justify-center items-center">
+            <section key={index} className="section-content h-[100vh] w-[100vw] flex justify-center items-center ">
               <div ref={universalRef}>
-                <h1 className=" text-[50px] ml-[120px] font-[eczar]">{project.name}</h1>
-                <div className=" flex items-center">
-                  <img src={project.image} alt={project.name} className=" w-[500px] h-auto" />
+                <h1 className=" md:text-[50px] xs:text-[30px] lg:ml-[120px] md:ml-[10%] xs:ml-[20%] font-[eczar]">{project.name}</h1>
+                <div className=" flex items-center xs:flex-col md:flex-col lg:flex-row">
+                  <img src={project.image} alt={project.name} className=" lg:w-[500px] md:w-[400px] xs:w-[300px] h-auto" />
                   <StackProject projectDescription={project.description} projectStack={project.projectStack} />
                 </div>
               </div>
