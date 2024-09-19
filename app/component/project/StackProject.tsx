@@ -4,7 +4,7 @@ import anim from "./anim";
 /* eslint-disable @next/next/no-img-element */
 type Props = {
   projectDescription: string;
-  projectStack: [{ sources: string; alt: string }];
+  projectStack: { sources: string; alt: string }[];
 };
 
 const StackProject = ({ projectDescription, projectStack }: Props) => {
