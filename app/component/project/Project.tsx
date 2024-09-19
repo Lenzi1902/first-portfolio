@@ -74,7 +74,7 @@ const Project = () => {
                 <h1 className=" md:text-[50px] xs:text-[30px] lg:ml-[120px] md:ml-[10%] xs:ml-[20%] font-[eczar]">{project.name}</h1>
                 <div className=" flex items-center xs:flex-col md:flex-col lg:flex-row">
                   <img src={project.image} alt={project.name} className=" lg:w-[500px] md:w-[400px] xs:w-[300px] h-auto" />
-                  <StackProject projectDescription={project.description} projectStack={project.projectStack} />
+                  <StackProject projectDescription={project.description} projectStack={[project.projectStack[0]]} />
                 </div>
               </div>
             </section>
