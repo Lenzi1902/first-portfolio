@@ -23,7 +23,7 @@ const LandingPageAbout = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-full  flex flex-col justify-between overflow-y-hidden">
+      <div className="w-full h-full  md:block  flex flex-col justify-between overflow-y-hidden">
         <VideoBackgroundHover />
         <div className=" z-[1] h-full w-full relative flex justify-center items-center">
           <img src="./fotoport2.png" alt="" className=" absolute  bottom-[-30px]  h-[140%] z-[-1] my-image" />
