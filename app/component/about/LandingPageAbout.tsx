@@ -19,7 +19,7 @@ const LandingPageAbout = () => {
             </div>
           </div>
           <div className=" h-full w-[90px]  rounded-full absolute right-0">
-            <video src="./globalanimatin1;1.mp4" suppressHydrationWarning={true} autoPlay muted loop className="  h-[90px] rounded-full location-globe" />
+            <video src="https://res.cloudinary.com/dteuj87u5/video/upload/v1741009930/samples/portfolio/globalanimatin1_1_y5zqho.mp4" suppressHydrationWarning={true} autoPlay muted loop className="  h-[90px] rounded-full location-globe" />
           </div>
         </div>
       </div>
