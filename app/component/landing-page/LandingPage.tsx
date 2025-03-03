@@ -13,7 +13,7 @@ const LandingPage = () => {
     }
   }, []);
   return (
-    <div ref={ref} className="flex flex-col items-center font-[eczar]  text-white h-screen w-screen bg-[url('/backgroundcolorlandingpage.png')] bg-cover bg-center bg-no-repeat overflow-y-hidden">
+    <div ref={ref} className="flex flex-col items-center font-[eczar]  text-white h-screen w-screen bg-[url('https://res.cloudinary.com/dteuj87u5/image/upload/v1741009820/samples/portfolio/backgroundcolorlandingpage_kwlybb.png')] bg-cover bg-center bg-no-repeat overflow-y-hidden">
       <svg width="358" height="150" viewBox="0 0 358 150" fill="none" xmlns="http://www.w3.org/2000/svg" className=" md:mt-[120px] xs:mt-[100px] frame-7 md:w-[368px] xs:w-[168px] opacity-0">
         <line y1="0.5" x2="358" y2="0.5" stroke="white" />
         <line x1="178.5" x2="178.5" y2="150" stroke="white" />
