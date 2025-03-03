@@ -7,7 +7,7 @@ export const SkillStack = [
   { sources: "./gsap-greensock.svg", alt: "Gsap" },
   { sources: "./mongodb.png", alt: "MongoDB" },
   { sources: "./logo vite.png", alt: "Vite" },
-  { source: "./nest-js-icon.png", alt: "NestJS" },
+  { sources: "./nest-js-icon.png", alt: "NestJS" },
   { sources: "./react.png", alt: "React Js" },
   { sources: "./reactquery.png", alt: "ReactQuery" },
   { sources: "./js.png", alt: "Javascript" },
