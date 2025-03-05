@@ -43,22 +43,6 @@ const projectStacListkCarsCommers = [
   { sources: "./css.png", alt: "CSS" },
   { sources: "./html.png", alt: "HTML" },
 ];
-const projectStackListOrderingApp = [
-  { sources: "./express.png", alt: "Express Js" },
-  { sources: "./ts.png", alt: "TypeScript" },
-  { sources: "./tailwind.png", alt: "Tailwind" },
-  { sources: "./stripe.webp", alt: "Stripe" },
-  { sources: "./mongodb.png", alt: "MongoDB" },
-  { sources: "./logo vite.png", alt: "Vite" },
-  { sources: "./react.png", alt: "React Js" },
-  { sources: "./reactquery.png", alt: "ReactQuery" },
-  { sources: "./js.png", alt: "Javascript" },
-  { sources: "./shadcn logo.png", alt: "Shadcn" },
-  { sources: "./node-js.png", alt: "Node Js" },
-  { sources: "./css.png", alt: "CSS" },
-  { sources: "./html.png", alt: "HTML" },
-];
-
 const projectAmpliCart = [
   { sources: "./express.png", alt: "Express Js" },
   { sources: "./ts.png", alt: "TypeScript" },
@@ -105,15 +89,6 @@ export const myProjects = [
     description:
       "Cars Commers is an online platform dedicated to buying and selling cars. Users can explore a wide range of vehicles for sale and make purchases directly through the website. Additionally, the platform allows users to create their own dealerships, making it easy for anyone to establish a virtual car showroom and start selling vehicles. With its modern interface and comprehensive features, Cars Commers provides a convenient and secure marketplace for both car buyers and sellers.",
     projectStack: projectStacListkCarsCommers,
-  },
-  {
-    name: "Ordering app",
-    linkGithub: "https://github.com/Lenzi1902/mern-food-ordering-app-frontend",
-    image: "./Macbooktest-removebg-preview.png",
-    className: "ordering-app",
-    description:
-      "Lorem ipsum odor amet, consectetuer adipiscing elit. Nullam parturient ipsum sit pharetra mollis porta magna morbi. Metus nostra tincidunt convallis nostra venenatis ornare, nostra maximus urna? Mi faucibus efficitur sapien netus donec natoque sem. Cursus ipsum libero vehicula dui sagittis magnis quisque. Sem curae nisl finibus nullam pulvinar enim. Volutpat odio euismod fringilla convallis finibus purus malesuada.",
-    projectStack: projectStackListOrderingApp,
   },
   {
     name: "AmpliCart",
