@@ -59,6 +59,25 @@ const projectStackListOrderingApp = [
   { sources: "./html.png", alt: "HTML" },
 ];
 
+const projectAmpliCart = [
+  { sources: "./express.png", alt: "Express Js" },
+  { sources: "./ts.png", alt: "TypeScript" },
+  { sources: "./tailwind.png", alt: "Tailwind" },
+  { sources: "./stripe.webp", alt: "Stripe" },
+  { sources: "./mongodb.png", alt: "MongoDB" },
+  { sources: "./next.png", alt: "NextJS" },
+  { sources: "./react.png", alt: "React Js" },
+  { sources: "./reactquery.png", alt: "ReactQuery" },
+  { sources: "./js.png", alt: "Javascript" },
+  { sources: "./shadcn logo.png", alt: "Shadcn" },
+  { sources: "./node-js.png", alt: "Node Js" },
+  { sources: "./css.png", alt: "CSS" },
+  { sources: "./html.png", alt: "HTML" },
+  { sources: "./nest-js-icon.png", alt: "NestJS" },
+  { sources: "./postgre.png", alt: "PostgreSql" },
+  { sources: "./prism.png", alt: "Prisma" },
+];
+
 export const myProjects = [
   {
     name: "Lenzi Store",
@@ -95,5 +114,13 @@ export const myProjects = [
     description:
       "Lorem ipsum odor amet, consectetuer adipiscing elit. Nullam parturient ipsum sit pharetra mollis porta magna morbi. Metus nostra tincidunt convallis nostra venenatis ornare, nostra maximus urna? Mi faucibus efficitur sapien netus donec natoque sem. Cursus ipsum libero vehicula dui sagittis magnis quisque. Sem curae nisl finibus nullam pulvinar enim. Volutpat odio euismod fringilla convallis finibus purus malesuada.",
     projectStack: projectStackListOrderingApp,
+  },
+  {
+    name: "AmpliCart",
+    linkGithub: "https://github.com/Lenzi1902",
+    image: "./amplicartfotosementara.png",
+    className: "ordering-app",
+    description: "Amplicart – Modern E-Commerce Platform. Amplicart is a sleek and user-friendly e-commerce platform designed for seamless shopping experiences, featuring secure transactions and a wide range of products. ",
+    projectStack: projectAmpliCart,
   },
 ];
