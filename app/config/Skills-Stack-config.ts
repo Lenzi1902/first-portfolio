@@ -2,6 +2,8 @@ export const SkillStack = [
   { sources: "./express.png", alt: "Express Js" },
   { sources: "./ts.png", alt: "TypeScript" },
   { sources: "./tailwind.png", alt: "Tailwind" },
+  { sources: "./postgre.png", alt: "PostgreSql" },
+  { sources: "./prism.png", alt: "Prisma" },
   { sources: "./stripe.webp", alt: "Stripe" },
   { sources: "./next.png", alt: "NEXT JS" },
   { sources: "./gsap-greensock.svg", alt: "Gsap" },
