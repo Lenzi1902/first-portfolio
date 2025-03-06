@@ -75,6 +75,12 @@ body {
   bottom: 0;
 }
 
+input:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
