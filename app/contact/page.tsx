@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import FormContact from "../form/FormContact";
+import FormContact from "./form/FormContact";
 
 const page = () => {
   return (
