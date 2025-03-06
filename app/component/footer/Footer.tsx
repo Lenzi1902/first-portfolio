@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="lg:w-[1309px] md:w-screen ">
           <div className="flex justify-between lg:mb-[20px] md:mb-0">
             <GsapMagnetic>
-              <a href="#" className=" border border-white rounded-full lg:w-[458px] md:w-[250px] h-[43px] flex justify-center items-center lg:text-[24px] md:text-[16px]">
+              <a href="/contact" className=" border border-white rounded-full lg:w-[458px] md:w-[250px] h-[43px] flex justify-center items-center lg:text-[24px] md:text-[16px]">
                 contact@agungwicaksana.com
               </a>
             </GsapMagnetic>
