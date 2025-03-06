@@ -4,7 +4,6 @@ import { useEffect, useRef } from "react";
 import anim from "./anim";
 import GsapMagnetic from "@/app/common/GsapMagnetic";
 import TranisitionLink from "../TranisitionLink";
-import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
   const ref = useRef<HTMLDivElement>(null);
