@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useRef } from "react";
 import anim from "./anim";
-import Link from "next/link";
 import TranisitionLink from "../TranisitionLink";
 import GsapMagnetic from "@/app/common/GsapMagnetic";
 
